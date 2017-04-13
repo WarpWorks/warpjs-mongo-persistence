@@ -1,0 +1,52 @@
+{
+  "name": "@dslama/mongo-persistence",
+  "version": "0.1.0",
+  "description": "Mongo implementation for persistence layer of HeadStart",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint:node": "eslint --fix --ignore-pattern='*.test.js' lib",
+    "lint:test": "eslint --fix --config='.eslintrc.test.json' 'lib/**/*.test.js'",
+    "lint": "npm run -s lint:node && npm run -s lint:test",
+    "test:unit": "mocha 'lib/**/*.unit.test.js'",
+    "test": "npm run -s test:unit",
+    "coverage:unit": "nyc --report-dir='reports/coverage-unit' npm run -s test:unit",
+    "coverage": "npm run -s coverage:unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dslama/MongoPersistence.git"
+  },
+  "keywords": [
+    "mongo",
+    "persistence",
+    "headstart"
+  ],
+  "author": {
+    "name": "Hữu Ðà Trần",
+    "email": "HuuDa.Tran@quoininc.com",
+    "url": "https://www.quoininc.com/staff/huu-da-tran/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dslama/MongoPersistence/issues"
+  },
+  "homepage": "https://github.com/dslama/MongoPersistence#readme",
+  "devDependencies": {
+    "@quoin/node-test-helpers": "0.1.7",
+    "eslint": "3.19.0",
+    "eslint-config-standard": "10.2.0",
+    "eslint-plugin-html": "2.0.1",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-node": "4.2.2",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "3.0.1",
+    "mocha": "3.2.0",
+    "mongo-mock": "2.4.0",
+    "nyc": "10.2.0"
+  },
+  "dependencies": {
+    "bluebird": "3.5.0",
+    "mongodb": "2.2.25",
+    "url-template": "2.0.8"
+  }
+}
