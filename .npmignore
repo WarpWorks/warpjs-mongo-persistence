@@ -1,5 +1,7 @@
+/.eslintrc.*
+/.npmignore
 /.nyc_output
+/.nycrc
 /dslama-mongo-persistence-*.tgz
-/node_modules
-/npm-debug.log
+/lib/**/*.test.js
 /reports
