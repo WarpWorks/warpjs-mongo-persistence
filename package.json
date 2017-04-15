@@ -1,7 +1,7 @@
 {
-  "name": "@dslama/mongo-persistence",
+  "name": "@warp-works/mongo-persistence",
   "version": "0.1.0",
-  "description": "Mongo implementation for persistence layer of HeadStart",
+  "description": "Mongo implementation for persistence layer of WarpWorks",
   "main": "lib/index.js",
   "scripts": {
     "lint:node": "eslint --fix --ignore-pattern='*.test.js' lib",
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dslama/MongoPersistence.git"
+    "url": "https://github.com/WarpWorks/mongo-persistence.git"
   },
   "keywords": [
     "mongo",
     "persistence",
-    "headstart"
+    "WarpWorks"
   ],
   "author": {
     "name": "Hữu Ðà Trần",

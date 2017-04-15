@@ -1,14 +1,14 @@
-# MongoPersistence
+# WarpWors/mongo-persistence
 
-MongoDB persistence for MonApp
+MongoDB persistence for WarpJS
 
 ## Install
 
-    npm install --save https://github.com/dslama/MongoPersistence.git
+    npm install --save @warp-works/mongo-persistence
 
 ## Usage
 
-    const Persistence = require('@dslama/mongo-persistence');
+    const Persistence = require('@warp-works/mongo-persistence');
     const persistence = new Persistence('some-host', 'db-name');
 
     persistence.documents('collection-name')
@@ -16,3 +16,5 @@ MongoDB persistence for MonApp
         .finally(() => {
             persistence.close();
         });
+
+TODO: Document more.

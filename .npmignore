@@ -2,6 +2,6 @@
 /.npmignore
 /.nyc_output
 /.nycrc
-/dslama-mongo-persistence-*.tgz
 /lib/**/*.test.js
 /reports
+/warp-works-mongo-persistence-*.tgz

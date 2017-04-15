@@ -1,5 +1,5 @@
 /.nyc_output
-/dslama-mongo-persistence-*.tgz
 /node_modules
 /npm-debug.log
 /reports
+/warp-works-mongo-persistence-*.tgz
