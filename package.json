@@ -1,6 +1,6 @@
 {
-  "name": "@warp-works/mongo-persistence",
-  "version": "0.1.0",
+  "name": "@warp-works/warpjs-mongo-persistence",
+  "version": "0.1.1",
   "description": "Mongo implementation for persistence layer of WarpWorks",
   "main": "lib/index.js",
   "scripts": {
@@ -14,11 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/WarpWorks/mongo-persistence.git"
+    "url": "https://github.com/WarpWorks/warpjs-mongo-persistence.git"
   },
   "keywords": [
     "mongo",
     "persistence",
+    "WarpJS",
     "WarpWorks"
   ],
   "author": {
@@ -32,19 +33,15 @@
   },
   "homepage": "https://github.com/dslama/MongoPersistence#readme",
   "devDependencies": {
+    "@quoin/eslint-config-quoin": "0.1.1",
     "@quoin/node-test-helpers": "0.1.7",
     "eslint": "3.19.0",
-    "eslint-config-standard": "10.2.0",
-    "eslint-plugin-html": "2.0.1",
-    "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-node": "4.2.2",
-    "eslint-plugin-promise": "3.5.0",
-    "eslint-plugin-standard": "3.0.1",
     "mocha": "3.2.0",
     "mongo-mock": "2.4.0",
     "nyc": "10.2.0"
   },
   "dependencies": {
+    "@warp-works/warpjs-persistence": "0.1.0",
     "bluebird": "3.5.0",
     "mongodb": "2.2.25",
     "url-template": "2.0.8"

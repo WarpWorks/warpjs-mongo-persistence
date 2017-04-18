@@ -3,5 +3,6 @@
 /.nyc_output
 /.nycrc
 /lib/**/*.test.js
+/CONTRIBUTING.md
 /reports
-/warp-works-mongo-persistence-*.tgz
+/*.tgz

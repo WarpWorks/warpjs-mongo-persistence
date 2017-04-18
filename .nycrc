@@ -3,7 +3,7 @@
   "report-dir": "./reports/coverage-default",
   "check-coverage": false,
   "exclude": [
-    "**/*.*.test.js",
+    "**/*.test.js",
     "reports",
     "*.js"
   ],
