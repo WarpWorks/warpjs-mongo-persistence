@@ -17,4 +17,4 @@ MongoDB persistence for WarpJS
             persistence.close();
         });
 
-TODO: Document more.
+Also see [WarpJS-Persistence interface](https://github.com/WarpWorks/warpjs-persistence) for more details.
