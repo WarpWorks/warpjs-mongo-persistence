@@ -1,5 +1,9 @@
 # Releases
 
+## 0.1.3 - 2017-10-04
+
+- Implementation of `makeBackup()`.
+
 ## 0.1.2
 
 - save() now returns the newly created document.
