@@ -1,6 +1,6 @@
 {
   "name": "@warp-works/warpjs-mongo-persistence",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Mongo implementation for persistence layer of WarpWorks",
   "main": "lib/index.js",
   "scripts": {
@@ -47,11 +47,11 @@
     "nyc": "latest"
   },
   "dependencies": {
-    "@warp-works/warpjs-persistence": "0.1.2",
-    "bluebird": "3.5.0",
+    "@warp-works/warpjs-persistence": "0.1.3",
+    "bluebird": "3.5.1",
     "debug": "3.1.0",
     "lodash": "4.17.4",
-    "mongodb": "2.2.31",
+    "mongodb": "2.2.32",
     "shelljs": "0.7.8",
     "url-template": "2.0.8"
   }
