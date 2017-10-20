@@ -1,5 +1,9 @@
 # Releases
 
+## 0.1.5 - 2017-10-20
+
+- Passing persistence config for backup.
+
 ## 0.1.4 - 2017-10-12
 
 - Updated mongodb driver and fixed tests for new mocha@4
