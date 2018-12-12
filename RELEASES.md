@@ -1,5 +1,9 @@
 # Releases
 
+## 0.1.8 - 2018-12-12
+
+- npm outdated.
+
 ## 0.1.5 - 2017-10-20
 
 - Passing persistence config for backup.
