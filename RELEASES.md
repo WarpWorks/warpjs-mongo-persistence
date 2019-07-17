@@ -1,5 +1,9 @@
 # Releases
 
+## 0.1.9 - 2019-07-17
+
+- lodash CVE-2019-10744. Adding `async` to some function to make it explicit.
+
 ## 0.1.8 - 2018-12-12
 
 - npm outdated.

@@ -1,9 +1,15 @@
 {
   "name": "@warp-works/warpjs-mongo-persistence",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Mongo implementation for persistence layer of WarpWorks",
   "main": "lib/index.js",
+  "engines": {
+    "node": ">=8.12.0"
+  },
   "scripts": {
+    "pretest": "npm run lint",
+    "precoverage": "npm run lint",
+    "prepack": "npm run coverage",
     "lint:node": "eslint --fix --ignore-pattern='*.test.js' lib",
     "lint:test": "eslint --fix --config='.eslintrc.test.json' 'lib/**/*.test.js'",
     "lint": "npm run -s lint:node && npm run -s lint:test",
@@ -33,26 +39,27 @@
   },
   "homepage": "https://github.com/dslama/MongoPersistence#readme",
   "devDependencies": {
-    "@quoin/eslint-config-quoin": "latest",
-    "@quoin/node-test-helpers": "latest",
-    "eslint": "latest",
-    "eslint-plugin-html": "latest",
-    "eslint-plugin-import": "latest",
-    "eslint-plugin-json": "latest",
-    "eslint-plugin-node": "latest",
-    "eslint-plugin-promise": "latest",
-    "eslint-plugin-standard": "latest",
-    "mocha": "latest",
-    "mongo-mock": "latest",
-    "nyc": "latest"
+    "@quoin/eslint-config-quoin": "~0.3.2",
+    "@quoin/node-test-helpers": "~1.0.3",
+    "eslint": "~6.0.1",
+    "eslint-config-standard": "~13.0.1",
+    "eslint-plugin-html": "~6.0.0",
+    "eslint-plugin-import": "~2.18.0",
+    "eslint-plugin-json": "~1.4.0",
+    "eslint-plugin-node": "~9.1.0",
+    "eslint-plugin-promise": "~4.2.1",
+    "eslint-plugin-standard": "~4.0.0",
+    "mocha": "~6.1.4",
+    "mongo-mock": "~3.7.1",
+    "nyc": "~14.1.1"
   },
   "dependencies": {
-    "@warp-works/warpjs-persistence": "0.1.4",
-    "bluebird": "~3.5.3",
-    "debug": "~4.1.0",
-    "lodash": "~4.17.11",
-    "mongodb": "2.2.33",
-    "shelljs": "0.7.8",
+    "@warp-works/warpjs-persistence": "~0.1.5",
+    "bluebird": "~3.5.5",
+    "debug": "~4.1.1",
+    "lodash": "~4.17.14",
+    "mongodb": "~2.2.36",
+    "shelljs": "~0.8.3",
     "url-template": "2.0.8"
   }
 }
