@@ -1,4 +1,5 @@
 /.eslintrc.*
+/.github
 /.npmignore
 /.nyc_output
 /.nycrc

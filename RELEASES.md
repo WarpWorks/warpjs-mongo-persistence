@@ -1,5 +1,9 @@
 # Releases
 
+## 1.0.0-rc.1 - 2021-06-16
+
+- Updating packages and node@14
+
 ## 0.1.9 - 2019-07-17
 
 - lodash CVE-2019-10744. Adding `async` to some function to make it explicit.
