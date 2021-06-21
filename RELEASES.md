@@ -1,5 +1,9 @@
 # Releases
 
+## 2.0.2 - 2021-06-21
+
+- Fixed v3 breaking api change.
+
 ## 2.0.1 - 2021-06-21
 
 - Adding `useUnifiedTopology`.
