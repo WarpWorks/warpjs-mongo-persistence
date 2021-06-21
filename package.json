@@ -1,6 +1,6 @@
 {
   "name": "@warp-works/warpjs-mongo-persistence",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Mongo implementation for persistence layer of WarpWorks",
   "main": "lib/index.js",
   "publishConfig": {

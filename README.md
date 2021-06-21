@@ -8,7 +8,7 @@ MongoDB persistence for WarpJS
 
 ## Usage
 
-    const Persistence = require('@warp-works/mongo-persistence');
+    const Persistence = require('@warp-works/warpjs-mongo-persistence');
     const persistence = new Persistence('some-host', 'db-name');
 
     persistence.documents('collection-name')
