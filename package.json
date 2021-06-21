@@ -64,5 +64,10 @@
     "mongodb": "^3.6.9",
     "shelljs": "^0.8.4",
     "url-template": "2.0.8"
+  },
+  "mocha": {
+    "diff": true,
+    "exit": true,
+    "recursive": true
   }
 }
