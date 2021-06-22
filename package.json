@@ -4,8 +4,7 @@
   "description": "Mongo implementation for persistence layer of WarpWorks",
   "main": "lib/index.js",
   "publishConfig": {
-    "access": "public",
-    "tag": "node14"
+    "access": "public"
   },
   "engines": {
     "node": ">=14.15.0"
