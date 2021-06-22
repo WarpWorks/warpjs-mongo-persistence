@@ -1,5 +1,9 @@
 # Releases
 
+## 2.0.3 - 2021-06-21
+
+- Merging into master branch and latest tag.
+
 ## 2.0.2 - 2021-06-21
 
 - Fixed v3 breaking api change.
